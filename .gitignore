@@ -25,9 +25,11 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-*.txt
-*.env
-learning.txt
+.env.local
+.env.development.local
+.env.test.local
+
+# vscode
 
 # vercel
 .vercel
