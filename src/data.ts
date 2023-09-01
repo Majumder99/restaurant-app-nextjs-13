@@ -363,9 +363,9 @@ type Menu = {
   desc?: string;
   img?: string;
   color: string;
-}[];
+};
 
-export const menu: Menu = [
+export const menu: Menu[] = [
   {
     id: 1,
     slug: "pastas",
